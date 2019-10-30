@@ -23,7 +23,7 @@ public class PostProps {
 
 		@BeforeTest
 		public void getData() throws IOException {
-			System.out.println("welcome to restassured");
+			System.out.println("welcome to restassured...");
 
 			FileInputStream fis = new FileInputStream(
 					"C:\\cucumber\\Rest\\rest\\src\\test\\java\\Files\\environment.properties");
